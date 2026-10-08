@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, money, statusColors, statusLabels } from '../theme';
-import { imageUrl } from '../api';
+import { imageUrl } from '../services/api';
 
 export function Button({ title, onPress, variant = 'primary', loading, disabled, icon, style }) {
   const isPrimary = variant === 'primary';

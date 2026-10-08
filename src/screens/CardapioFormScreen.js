@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Alert, Pressable, ScrollView, Switch, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Button, ErrorView, Input, Loading, ProdutoImage, styles } from '../components/ui';
-import { criarCardapio, listarProdutos } from '../api';
+import { criarCardapio, listarProdutos } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { colors, money } from '../theme';
 

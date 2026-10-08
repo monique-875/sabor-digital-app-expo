@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Alert, FlatList, Pressable, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Button, Empty, Input, ProdutoImage, styles } from '../components/ui';
-import { criarPedido } from '../api';
+import { criarPedido } from '../services/api';
 import { useCarrinho } from '../context/CartContext';
 import { useAutenticacao } from '../context/AuthContext';
 import { colors, money } from '../theme';

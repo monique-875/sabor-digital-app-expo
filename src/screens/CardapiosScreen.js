@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, Text } from 'react-native';
 import { Empty, ErrorView, Loading, ProdutoCard, styles } from '../components/ui';
-import { listarProdutos } from '../api';
+import { listarProdutos } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { useCarrinho } from '../context/CartContext';
 import { colors } from '../theme';

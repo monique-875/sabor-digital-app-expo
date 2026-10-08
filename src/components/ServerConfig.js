@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, Text, View } from 'react-native';
 import { Button, Input, styles } from './ui';
-import { getBaseUrl, saveBaseUrl } from '../api';
+import { getBaseUrl, saveBaseUrl } from '../services/api';
 
 export default function ServerConfig() {
   const [url, setUrl] = useState(getBaseUrl());

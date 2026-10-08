@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { FlatList, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Empty, ErrorView, Fab, Loading, ProdutoCard, styles } from '../components/ui';
-import { listarProdutos } from '../api';
+import { listarProdutos } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { useAutenticacao } from '../context/AuthContext';
 import { useCarrinho } from '../context/CartContext';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, ScrollView, Text, View } from 'react-native';
 import { Button, ErrorView, Loading, StatusBadge, styles } from '../components/ui';
-import { atualizarStatusPedido, buscarPedido, excluirPedido } from '../api';
+import { atualizarStatusPedido, buscarPedido, excluirPedido } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { useAutenticacao } from '../context/AuthContext';
 import { colors, money, statusLabels } from '../theme';

@@ -3,7 +3,7 @@ import { Alert, Image, Pressable, ScrollView, Switch, Text, View } from 'react-n
 import * as ImagePicker from 'expo-image-picker';
 import { Ionicons } from '@expo/vector-icons';
 import { Button, Input, styles } from '../components/ui';
-import { atualizarProduto, criarProduto, imageUrl } from '../api';
+import { atualizarProduto, criarProduto, imageUrl } from '../services/api';
 import { colors } from '../theme';
 
 export default function ProdutoFormScreen({ route, navigation }) {

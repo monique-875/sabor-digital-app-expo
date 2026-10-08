@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, ScrollView, Text, View } from 'react-native';
 import { Button, ErrorView, Loading, ProdutoImage, styles } from '../components/ui';
-import { buscarProduto, excluirProduto } from '../api';
+import { buscarProduto, excluirProduto } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { useAutenticacao } from '../context/AuthContext';
 import { useCarrinho } from '../context/CartContext';

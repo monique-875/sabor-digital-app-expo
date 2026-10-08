@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, Pressable, Text, View } from 'react-native';
 import { Empty, ErrorView, Loading, StatusBadge, styles } from '../components/ui';
-import { listarPedidos } from '../api';
+import { listarPedidos } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { colors, money } from '../theme';
 

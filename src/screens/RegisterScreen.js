@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, ScrollView } from 'react-native';
 import { Button, Input, styles } from '../components/ui';
-import { registrar } from '../api';
+import { registrar } from '../services/api';
 import { useAutenticacao } from '../context/AuthContext';
 
 export default function RegisterScreen({ navigation }) {

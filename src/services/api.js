@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { DEFAULT_API_URL } from './config';
+import { DEFAULT_API_URL } from '../config';
 
 let baseUrl = DEFAULT_API_URL;
 let token = null;

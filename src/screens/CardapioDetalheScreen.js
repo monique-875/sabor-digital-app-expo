@@ -1,7 +1,7 @@
 import React from 'react';
 import { Alert, ScrollView, Text, View } from 'react-native';
 import { Button, Empty, ErrorView, Loading, ProdutoCard, styles } from '../components/ui';
-import { buscarCardapio, excluirCardapio } from '../api';
+import { buscarCardapio, excluirCardapio } from '../services/api';
 import { useCarregarDados } from '../hooks';
 import { useAutenticacao } from '../context/AuthContext';
 import { useCarrinho } from '../context/CartContext';
